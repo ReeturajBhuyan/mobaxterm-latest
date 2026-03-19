@@ -1,53 +1,123 @@
-# mobaxterm-latest
-A mobaxterm licensed version
+This repository provides a workflow to generate, customize, and deploy a licensed configuration for MobaXterm.
 
-How to Use
-Key Generator
-Visit the Generator: Go to the MobaXterm Key Generator  https://moba-xterm-keygen.vercel.app/
-Fill in the Form:
+🚀 Features
+
+🔑 License key generation
+
+🎨 UI & behavior customization
+
+🧩 Plugin and bookmark configuration
+
+🔄 Merge license + customization into a single file
+
+🔐 Key Generator
+📍 Access Tool
+
+Visit: https://moba-xterm-keygen.vercel.app/
+
+⚙️ Steps
+
 Select the desired MobaXterm edition
+
 Enter a username (letters only)
-Choose your MobaXterm version (20.X or 26.X)
+
+Choose your MobaXterm version (e.g., 20.X or 26.X)
+
 Specify the number of users
-Download: Click "Download Key" to get your Custom.mxtpro file
-Activate: Place the generated file in your MobaXterm installation directory:
-C:\Program Files (x86)\Mobatek\MobaXterm
-Customizer
+
+Click Download Key
+
+👉 This generates a file:
+
+Custom.mxtpro
+🎨 Customizer
+📍 Access
+
 Go to the Customizer Tab in the web interface
-Configure Your Settings:
-Banner: Create a personalized welcome message
-Profile: Configure a custom bash profile (similar to /etc/profile in Linux)
-Settings: Toggle MobaXterm features on/off
-Logo: Upload your custom logo image
-Bookmarks: Create predefined connections for your users
-Plugins: Add optional MobaXterm plugins (.mxt3 files)
-Generate Settings: Click "Generate Configuration File" to download your settings
-Apply Settings: Use either method below to apply your customization
-Settings Merger
-Go to the Custom Settings Merger Tab
-Upload Files:
-Your license key file (Custom.mxtpro)
-Your customization file (MobaXterm customization.custom)
-Merge: Create a single file with both your license and custom settings
-Deploy: Copy the merged Custom.mxtpro to your MobaXterm installation directory
-Installation Guide
+
+⚙️ Configuration Options
+
+Banner → Custom welcome message
+
+Profile → Custom bash profile (like /etc/profile)
+
+Settings → Enable/disable features
+
+Logo → Upload custom branding
+
+Bookmarks → Predefined connections
+
+Plugins → Add .mxt3 plugin files
+
+📥 Generate Config
+
+Click:
+
+Generate Configuration File
+
+Output:
+
+MobaXterm customization.custom
+🔄 Settings Merger
+📍 Access
+
+Go to Custom Settings Merger Tab
+
+⚙️ Steps
+
+Upload:
+
+Custom.mxtpro (license)
+
+MobaXterm customization.custom (settings)
+
+Click Merge
+
+👉 Output:
+
+Custom.mxtpro (merged file)
+🛠️ Installation Guide
 Step 1: Download MobaXterm
-Download the latest version from the official MobaXterm website.
 
-Step 2: Generate Your Key & Customization
-Use our tool to:
+Download from the official website.
 
-Create your activation key
-Customize your settings (optional)
-Merge your license with your customization (optional)
+Step 2: Generate Key & Customization
+
+Use the provided tool to:
+
+Create activation key
+
+Customize settings (optional)
+
+Merge both (optional)
+
 Step 3: Activate MobaXterm
-Locate your MobaXterm installation folder:
-Default Path: C:\Program Files (x86)\Mobatek\MobaXterm
-Or right-click the MobaXterm shortcut and select "Open file location"
-Copy the Custom.mxtpro file to this directory
-Start MobaXterm - your license and customizations should now be applied!
-Alternative Customization Method
-MobaXterm.exe has a customizer mode that you can access by adding the parameter "-customizer":
+
+Locate installation directory:
+
+C:\Program Files (x86)\Mobatek\MobaXterm
+
+Or:
+
+Right-click shortcut → Open file location
+
+Copy:
+
+Custom.mxtpro
+
+Launch MobaXterm
+
+✅ License and customizations should now be active
+
+⚙️ Alternative Customization Method
+
+MobaXterm provides a built-in customizer mode:
 
 .\MobaXterm.exe -customizer
-This official tool also allows you to export your settings to a file named "MobaXterm customization.custom". Our web-based customizer provides similar functionality but is accessible directly in your browser.
+📌 Notes
+
+This generates:
+
+MobaXterm customization.custom
+
+The web-based tool provides similar functionality in a browser
